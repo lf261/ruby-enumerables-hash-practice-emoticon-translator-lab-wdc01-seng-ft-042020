@@ -20,9 +20,9 @@ def get_japanese_emoticon(path, eng_emoji)
   
   emoji_hash = load_library(path)
   
-  emoji_hash.each do |k, v|
-    if k[:english] == eng_emoji
-      return k[:japanese]
+  emoji_hash.each do |meaning, v|
+    if meaning[:english] == eng_emoji
+      return meaning[:japanese]
     end
   end
  
