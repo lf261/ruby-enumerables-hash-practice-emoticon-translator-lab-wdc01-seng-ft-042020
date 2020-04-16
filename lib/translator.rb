@@ -20,7 +20,7 @@ def get_japanese_emoticon(path, eng_emoji)
   
   emoji_hash = load_library(path)
   
-  given :) = peng
+ # given :) = peng
   
  
  
