@@ -44,6 +44,3 @@ def get_english_meaning(path, jpn_emoji)
     return "The name was not found."
   end
 
- 
-end 
-end
