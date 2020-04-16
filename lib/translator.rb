@@ -20,7 +20,11 @@ def get_japanese_emoticon(path, eng_emoji)
   
   emoji_hash = load_library(path)
   
- # given :) = peng
+  emoji_hash.each do |k, v|
+    if k[english]
+    end
+  end
+ 
   
  
  
