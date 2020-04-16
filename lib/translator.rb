@@ -39,7 +39,7 @@ def get_english_meaning(path, jpn_emoji)
       return k
     end
     
-    return "The name was not found."
+    return "Sorry, that emoticon was not found"
   end
 
 end
