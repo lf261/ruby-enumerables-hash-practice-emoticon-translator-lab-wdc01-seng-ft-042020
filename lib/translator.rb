@@ -22,7 +22,7 @@ def get_japanese_emoticon(path, eng_emoji)
   
   emoji_hash.each do |k, v|
     if (v[:english] == eng_emoji)
-      return meaning[:japanese]
+      return v[:japanese]
     end
     
     return "The emoticon was not found."
