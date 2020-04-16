@@ -14,7 +14,7 @@ def load_library(library_path)
   
   results_hash
 
-  end
+end
 
 def get_japanese_emoticon(path, w_emoji)
   
