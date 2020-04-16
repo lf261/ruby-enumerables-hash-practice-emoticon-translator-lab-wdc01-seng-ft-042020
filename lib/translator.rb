@@ -32,9 +32,7 @@ def get_japanese_emoticon(path, eng_emoji)
 end 
 
 
-def get_english_meaning
-  
-  def get_japanese_emoticon(path, eng_emoji)
+def get_english_meaning(path, jpn_emoji)
   
   emoji_hash = load_library(path)
   
