@@ -21,8 +21,8 @@ def get_japanese_emoticon(path, eng_emoji)
   emoji_hash = load_library(path)
   
   emoji_hash.each do |meaning, v|
-    if meaning["english"] == eng_emoji
-      return meaning["japanese"]
+    if meaning["english":] == eng_emoji
+      return meaning["japanese":]
     end
     
     return "The emoticon was not found."
