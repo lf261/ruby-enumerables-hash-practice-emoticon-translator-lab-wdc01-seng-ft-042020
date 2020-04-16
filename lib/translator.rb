@@ -37,11 +37,11 @@ def get_english_meaning(path, jpn_emoji)
   emoji_hash = load_library(path)
   
   emoji_hash.each do |k, v|
-    if (v[:english] == eng_emoji)
-      return v[:japanese]
+    if (v[:japanese] == eng_emoji)
+      return k
     end
     
-    return "The emoticon was not found."
+    return "The name was not found."
   end
 
  
