@@ -20,7 +20,7 @@ def get_japanese_emoticon(path, west_emoji)
   
   emoji_hash = load_library(path)
   
-  result = emoji_hash[emoji]
+  result = emoji_hash[
  
 end 
 
