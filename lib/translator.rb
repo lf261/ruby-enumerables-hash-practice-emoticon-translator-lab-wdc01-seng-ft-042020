@@ -35,7 +35,7 @@ def get_english_meaning(path, jpn_emoji)
   emoji_hash = load_library(path)
   
   emoji_hash.each do |k, v|
-    if (v[:japanese] == eng_emoji)
+    if (v[:japanese] == jpn_emoji)
       return k
     end
     
