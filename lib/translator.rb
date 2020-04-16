@@ -20,9 +20,9 @@ def get_japanese_emoticon(path, eng_emoji)
   
   emoji_hash = load_library(path)
   
-  happy[:english][:)] = happy[:japenese][peng]
+  given :) = peng
   
- # result = peng
+ 
 end 
 
 
