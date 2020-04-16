@@ -9,7 +9,7 @@ def load_library(library_path)
   results_hash = {}
   
   emoticons_library.each do |meaning, emojis|
-    results_hash[meaning] = {"english" => emojis[0], "japanese" => emojis[1]}
+    results_hash[meaning] = {:english => emojis[0], :japanese => emojis[1]}
     end 
   
   results_hash
