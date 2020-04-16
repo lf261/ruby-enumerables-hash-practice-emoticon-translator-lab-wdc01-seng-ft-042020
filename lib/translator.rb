@@ -25,33 +25,9 @@ def get_japanese_emoticon(path, eng_emoji)
       return meaning[:japanese]
     end
   end
- 
-  
- 
+
  
 end 
-
-
-
-
-
-
-
-
-
-
-
-
-
- emojis_hash = load_library(library_path)
- 
- jpn_emoticon = emojis_hash[emojis][:japanese]
- 
- if !jpn_emoticon 
-   jpn_emoticon = "That emoticon was not present"
-  end 
-  jpn_emoticon
-end
 
 
 def get_english_meaning
