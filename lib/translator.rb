@@ -36,7 +36,7 @@ def get_english_meaning(path, jpn_emoji)
   
   emoji_hash.each do |k, v|
     if (v[:japanese] == jpn_emoji)
-      return k
+      return emoji_hash[k]
     end
     
     return "The name was not found."
